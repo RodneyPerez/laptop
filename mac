@@ -112,6 +112,7 @@ fancy_echo "Updating Homebrew formulae ..."
 brew update --force # https://github.com/Homebrew/brew/issues/1151
 brew bundle --file=- <<EOF
 tap "homebrew/services"
+cask_args appdir: '/Applications', 'no-quarantine': true, force: true
 
 # Unix
 brew "git"
@@ -121,6 +122,7 @@ brew "tmux"
 brew "vim"
 brew "zsh"
 brew "zsh-autosuggestions"
+brew "awscli"
 brew "yarn"
 
 # Programming language prerequisites and package managers
@@ -138,6 +140,7 @@ cask "authy"
 cask "keyboard-cleaner"
 cask "lastpass"
 cask "virtualbox"
+cask "google-cloud-sdk"
 
 brew "minikube"
 
