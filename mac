@@ -136,6 +136,7 @@ cask "iterm2"
 cask "visual-studio-code"
 cask "authy"
 cask "keyboard-cleaner"
+cask "lastpass"
 cask "virtualbox"
 
 brew "minikube"
