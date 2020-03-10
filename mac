@@ -135,6 +135,9 @@ cask "firefox"
 cask "iterm2"
 cask "visual-studio-code"
 cask "authy"
+cask "virtualbox"
+
+brew "minikube"
 
 EOF
 
