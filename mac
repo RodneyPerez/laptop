@@ -123,7 +123,7 @@ brew "vim"
 brew "zsh"
 brew "zsh-autosuggestions"
 brew "awscli"
-brew "yarn"
+#brew "yarn"
 
 # Programming language prerequisites and package managers
 brew "libyaml" # should come after openssl
@@ -141,6 +141,11 @@ cask "keyboard-cleaner"
 cask "lastpass"
 cask "virtualbox"
 cask "google-cloud-sdk"
+cask "1password"
+cask "authy"
+cask "android-file-transfer"
+cask "nordvpn"
+cask "lastpass"
 
 brew "minikube"
 
@@ -167,7 +172,7 @@ install_asdf_plugin() {
 # shellcheck disable=SC1090
 source "$HOME/.asdf/asdf.sh"
 install_asdf_plugin "ruby" "https://github.com/asdf-vm/asdf-ruby.git"
-install_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git"
+#install_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git"
 #install_asdf_plugin "erlang" "https://github.com/asdf-vm/asdf-erlang"
 #install_asdf_plugin "elixir" "https://github.com/asdf-vm/asdf-elixir.git"
 install_asdf_plugin "go" "https://github.com/kennyp/asdf-golang"
@@ -188,7 +193,7 @@ install_asdf_language() {
 fancy_echo "Installing latest Ruby, Go, Erlang, Elixir, Python ..."
 install_asdf_language "ruby"
 install_asdf_language "go"
-install_asdf_language "python"
+#install_asdf_language "python"
 install_asdf_language "terraform"
 #install_asdf_language "erlang"
 #install_asdf_language "elixir"
